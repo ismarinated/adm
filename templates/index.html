@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href='/static/style.css' />
+        <title>Главная</title>
+    </head>
+    <body>
+        <h1>Загрузка файла:</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="file"/>
+            <input type="submit" value="Добавить"/>
+        </form>
+    </body>
+</html>
